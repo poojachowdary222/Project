@@ -1,0 +1,110 @@
+src/main/java/com/Payment/main/FoodDeliveryApp2Application.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/main/java/com/Payment/main/FoodDeliveryApp2Application.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/Payment/main/FoodDeliveryApp2Application.java:7:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
+src/main/java/com/Payment/main/FoodDeliveryApp2Application.java:9:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/Payment/main/FoodDeliveryApp2Application.java:9:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/com/Payment/main/controller/PaymentController.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/main/java/com/Payment/main/controller/PaymentController.java:14:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/Payment/main/controller/PaymentController.java:14:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/Payment/main/controller/PaymentController.java:16:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/Payment/main/controller/PaymentController.java:19:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/Payment/main/controller/PaymentController.java:24:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/Payment/main/controller/PaymentController.java:24:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'payment' is not assigned and could be declared final
+src/main/java/com/Payment/main/controller/PaymentController.java:30:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/Payment/main/controller/PaymentController.java:31:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/Payment/main/controller/PaymentController.java:34:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/Payment/main/controller/PaymentController.java:40:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/Payment/main/controller/PaymentController.java:40:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'pId' is not assigned and could be declared final
+src/main/java/com/Payment/main/controller/PaymentController.java:40:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/com/Payment/main/controller/PaymentController.java:45:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/Payment/main/controller/PaymentController.java:48:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/Payment/main/controller/PaymentController.java:54:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/Payment/main/controller/PaymentController.java:54:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'payment' is not assigned and could be declared final
+src/main/java/com/Payment/main/controller/PaymentController.java:54:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/com/Payment/main/controller/PaymentController.java:63:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/Payment/main/controller/PaymentController.java:63:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/com/Payment/main/entity/Payment.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/main/java/com/Payment/main/entity/Payment.java:11:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.Payment.main.entity.Payment'
+src/main/java/com/Payment/main/entity/Payment.java:18:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/Payment/main/entity/Payment.java:21:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/Payment/main/entity/Payment.java:22:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/Payment/main/entity/Payment.java:23:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/Payment/main/entity/Payment.java:26:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/Payment/main/entity/Payment.java:33:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/Payment/main/entity/Payment.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'orderId' is not assigned and could be declared final
+src/main/java/com/Payment/main/entity/Payment.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'pId' is not assigned and could be declared final
+src/main/java/com/Payment/main/entity/Payment.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'totalAmount' is not assigned and could be declared final
+src/main/java/com/Payment/main/entity/Payment.java:43:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/Payment/main/entity/Payment.java:49:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/Payment/main/entity/Payment.java:49:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'pId' is not assigned and could be declared final
+src/main/java/com/Payment/main/entity/Payment.java:61:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'orderId' is not assigned and could be declared final
+src/main/java/com/Payment/main/entity/Payment.java:71:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'totalAmount' is not assigned and could be declared final
+src/main/java/com/Payment/main/exception/InvalidPaymentId.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/main/java/com/Payment/main/exception/InvalidPaymentId.java:2:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/Payment/main/exception/InvalidPaymentId.java:2:	MissingSerialVersionUID:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/main/java/com/Payment/main/exception/InvalidPaymentId.java:3:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/Payment/main/exception/InvalidPaymentId.java:3:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/com/Payment/main/repository/PaymentRepository.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/main/java/com/Payment/main/repository/PaymentRepository.java:5:	UnnecessaryImport:	UnnecessaryImport: Unused import 'org.springframework.data.jpa.repository.Query'
+src/main/java/com/Payment/main/repository/PaymentRepository.java:6:	UnnecessaryImport:	UnnecessaryImport: Unused import 'org.springframework.data.repository.query.Param'
+src/main/java/com/Payment/main/repository/PaymentRepository.java:12:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/Payment/main/service/PaymentService.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/main/java/com/Payment/main/service/PaymentService.java:14:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/Payment/main/service/PaymentService.java:16:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/Payment/main/service/PaymentService.java:16:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/com/Payment/main/service/PaymentService.java:16:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'insertPayment': the method is declared in an interface type
+src/main/java/com/Payment/main/service/PaymentService.java:17:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/Payment/main/service/PaymentService.java:17:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/com/Payment/main/service/PaymentService.java:17:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'getAllPayments': the method is declared in an interface type
+src/main/java/com/Payment/main/service/PaymentService.java:18:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/Payment/main/service/PaymentService.java:18:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/com/Payment/main/service/PaymentService.java:18:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'updatePayment': the method is declared in an interface type
+src/main/java/com/Payment/main/service/PaymentService.java:19:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/Payment/main/service/PaymentService.java:19:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'deletePayment': the method is declared in an interface type
+src/main/java/com/Payment/main/service/PaymentServiceImpl.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/main/java/com/Payment/main/service/PaymentServiceImpl.java:13:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/Payment/main/service/PaymentServiceImpl.java:13:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/Payment/main/service/PaymentServiceImpl.java:15:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/Payment/main/service/PaymentServiceImpl.java:18:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'paymentRepository'
+src/main/java/com/Payment/main/service/PaymentServiceImpl.java:18:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/Payment/main/service/PaymentServiceImpl.java:20:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'payment' is not assigned and could be declared final
+src/main/java/com/Payment/main/service/PaymentServiceImpl.java:20:	MissingOverride:	MissingOverride: The method 'insertPayment(Payment)' is missing an @Override annotation.
+src/main/java/com/Payment/main/service/PaymentServiceImpl.java:32:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'payment' is not assigned and could be declared final
+src/main/java/com/Payment/main/service/PaymentServiceImpl.java:38:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'pId' is not assigned and could be declared final
+src/test/java/com/Payment/main/FoodDeliveryApp2ApplicationTests.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/test/java/com/Payment/main/FoodDeliveryApp2ApplicationTests.java:7:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/Payment/main/FoodDeliveryApp2ApplicationTests.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/Payment/main/FoodDeliveryApp2ApplicationTests.java:10:	JUnitTestsShouldIncludeAssert:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/com/Payment/main/FoodDeliveryApp2ApplicationTests.java:10:	UncommentedEmptyMethodBody:	UncommentedEmptyMethodBody: Document empty method body
+src/test/java/com/Payment/main/PaymentServiceImplTest.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/test/java/com/Payment/main/PaymentServiceImplTest.java:10:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.Payment.main.exception.InvalidPaymentId'
+src/test/java/com/Payment/main/PaymentServiceImplTest.java:17:	UnnecessaryImport:	UnnecessaryImport: Unused static import 'org.junit.Assert.assertThrows'
+src/test/java/com/Payment/main/PaymentServiceImplTest.java:21:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/Payment/main/PaymentServiceImplTest.java:21:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/Payment/main/PaymentServiceImplTest.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/Payment/main/PaymentServiceImplTest.java:27:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/Payment/main/PaymentServiceImplTest.java:30:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/Payment/main/PaymentServiceImplTest.java:35:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/Payment/main/PaymentServiceImplTest.java:35:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/Payment/main/PaymentServiceImplTest.java:35:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/Payment/main/PaymentServiceImplTest.java:36:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'payment' could be declared final
+src/test/java/com/Payment/main/PaymentServiceImplTest.java:43:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/Payment/main/PaymentServiceImplTest.java:45:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/Payment/main/PaymentServiceImplTest.java:46:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/Payment/main/PaymentServiceImplTest.java:52:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/Payment/main/PaymentServiceImplTest.java:52:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/Payment/main/PaymentServiceImplTest.java:52:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/Payment/main/PaymentServiceImplTest.java:53:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'paymentList' could be declared final
+src/test/java/com/Payment/main/PaymentServiceImplTest.java:59:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/Payment/main/PaymentServiceImplTest.java:61:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/Payment/main/PaymentServiceImplTest.java:62:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/Payment/main/PaymentServiceImplTest.java:68:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/Payment/main/PaymentServiceImplTest.java:68:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/Payment/main/PaymentServiceImplTest.java:68:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/Payment/main/PaymentServiceImplTest.java:69:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'payment' could be declared final
+src/test/java/com/Payment/main/PaymentServiceImplTest.java:77:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/Payment/main/PaymentServiceImplTest.java:79:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/Payment/main/PaymentServiceImplTest.java:80:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/Payment/main/PaymentServiceImplTest.java:86:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/Payment/main/PaymentServiceImplTest.java:86:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/Payment/main/PaymentServiceImplTest.java:87:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'paymentId' could be declared final

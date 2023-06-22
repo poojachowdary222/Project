@@ -1,0 +1,1265 @@
+{
+  "formatVersion": 0,
+  "pmdVersion": "7.0.0-rc3",
+  "timestamp": "2023-06-20T16:07:08.664+05:30",
+  "files": [
+    {
+      "filename": "src/main/java/com/Payment/main/FoodDeliveryApp2Application.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 0,
+          "endline": 1,
+          "endcolumn": 0,
+          "description": "PackageCase: Package name contains upper case characters",
+          "rule": "PackageCase",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#packagecase"
+        },
+        {
+          "beginline": 7,
+          "begincolumn": 0,
+          "endline": 7,
+          "endcolumn": 0,
+          "description": "CommentRequired: Class comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 7,
+          "begincolumn": 0,
+          "endline": 7,
+          "endcolumn": 0,
+          "description": "UseUtilityClass: This utility class has a non-private constructor",
+          "rule": "UseUtilityClass",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_design.html#useutilityclass"
+        },
+        {
+          "beginline": 9,
+          "begincolumn": 0,
+          "endline": 9,
+          "endcolumn": 0,
+          "description": "CommentRequired: Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 9,
+          "begincolumn": 0,
+          "endline": 9,
+          "endcolumn": 0,
+          "description": "MethodArgumentCouldBeFinal: Parameter \u0027args\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        }
+      ]
+    },
+    {
+      "filename": "src/main/java/com/Payment/main/controller/PaymentController.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 0,
+          "endline": 1,
+          "endcolumn": 0,
+          "description": "PackageCase: Package name contains upper case characters",
+          "rule": "PackageCase",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#packagecase"
+        },
+        {
+          "beginline": 14,
+          "begincolumn": 0,
+          "endline": 14,
+          "endcolumn": 0,
+          "description": "AtLeastOneConstructor: Each class should declare at least one constructor",
+          "rule": "AtLeastOneConstructor",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#atleastoneconstructor"
+        },
+        {
+          "beginline": 14,
+          "begincolumn": 0,
+          "endline": 14,
+          "endcolumn": 0,
+          "description": "CommentRequired: Class comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 16,
+          "begincolumn": 0,
+          "endline": 16,
+          "endcolumn": 0,
+          "description": "CommentRequired: Field comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 19,
+          "begincolumn": 0,
+          "endline": 19,
+          "endcolumn": 0,
+          "description": "CommentRequired: Field comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 24,
+          "begincolumn": 0,
+          "endline": 24,
+          "endcolumn": 0,
+          "description": "CommentRequired: Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 24,
+          "begincolumn": 0,
+          "endline": 24,
+          "endcolumn": 0,
+          "description": "MethodArgumentCouldBeFinal: Parameter \u0027payment\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 30,
+          "begincolumn": 0,
+          "endline": 30,
+          "endcolumn": 0,
+          "description": "OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method",
+          "rule": "OnlyOneReturn",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#onlyonereturn"
+        },
+        {
+          "beginline": 31,
+          "begincolumn": 0,
+          "endline": 31,
+          "endcolumn": 0,
+          "description": "AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block",
+          "rule": "AvoidCatchingGenericException",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_design.html#avoidcatchinggenericexception"
+        },
+        {
+          "beginline": 34,
+          "begincolumn": 0,
+          "endline": 34,
+          "endcolumn": 0,
+          "description": "AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.",
+          "rule": "AvoidPrintStackTrace",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_bestpractices.html#avoidprintstacktrace"
+        },
+        {
+          "beginline": 40,
+          "begincolumn": 0,
+          "endline": 40,
+          "endcolumn": 0,
+          "description": "CommentRequired: Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 40,
+          "begincolumn": 0,
+          "endline": 40,
+          "endcolumn": 0,
+          "description": "MethodArgumentCouldBeFinal: Parameter \u0027pId\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 40,
+          "begincolumn": 0,
+          "endline": 40,
+          "endcolumn": 0,
+          "description": "SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception",
+          "rule": "SignatureDeclareThrowsException",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_design.html#signaturedeclarethrowsexception"
+        },
+        {
+          "beginline": 45,
+          "begincolumn": 0,
+          "endline": 45,
+          "endcolumn": 0,
+          "description": "AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block",
+          "rule": "AvoidCatchingGenericException",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_design.html#avoidcatchinggenericexception"
+        },
+        {
+          "beginline": 48,
+          "begincolumn": 0,
+          "endline": 48,
+          "endcolumn": 0,
+          "description": "AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.",
+          "rule": "AvoidPrintStackTrace",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_bestpractices.html#avoidprintstacktrace"
+        },
+        {
+          "beginline": 54,
+          "begincolumn": 0,
+          "endline": 54,
+          "endcolumn": 0,
+          "description": "CommentRequired: Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 54,
+          "begincolumn": 0,
+          "endline": 54,
+          "endcolumn": 0,
+          "description": "MethodArgumentCouldBeFinal: Parameter \u0027payment\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 54,
+          "begincolumn": 0,
+          "endline": 54,
+          "endcolumn": 0,
+          "description": "SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception",
+          "rule": "SignatureDeclareThrowsException",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_design.html#signaturedeclarethrowsexception"
+        },
+        {
+          "beginline": 63,
+          "begincolumn": 0,
+          "endline": 63,
+          "endcolumn": 0,
+          "description": "CommentRequired: Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 63,
+          "begincolumn": 0,
+          "endline": 63,
+          "endcolumn": 0,
+          "description": "SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception",
+          "rule": "SignatureDeclareThrowsException",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_design.html#signaturedeclarethrowsexception"
+        }
+      ]
+    },
+    {
+      "filename": "src/main/java/com/Payment/main/entity/Payment.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 0,
+          "endline": 1,
+          "endcolumn": 0,
+          "description": "PackageCase: Package name contains upper case characters",
+          "rule": "PackageCase",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#packagecase"
+        },
+        {
+          "beginline": 11,
+          "begincolumn": 0,
+          "endline": 11,
+          "endcolumn": 0,
+          "description": "UnnecessaryImport: Unused import \u0027com.Payment.main.entity.Payment\u0027",
+          "rule": "UnnecessaryImport",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#unnecessaryimport"
+        },
+        {
+          "beginline": 18,
+          "begincolumn": 0,
+          "endline": 18,
+          "endcolumn": 0,
+          "description": "CommentRequired: Class comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 21,
+          "begincolumn": 0,
+          "endline": 21,
+          "endcolumn": 0,
+          "description": "CommentRequired: Field comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 22,
+          "begincolumn": 0,
+          "endline": 22,
+          "endcolumn": 0,
+          "description": "CommentRequired: Field comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 23,
+          "begincolumn": 0,
+          "endline": 23,
+          "endcolumn": 0,
+          "description": "CommentRequired: Field comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 26,
+          "begincolumn": 0,
+          "endline": 26,
+          "endcolumn": 0,
+          "description": "CommentRequired: Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 33,
+          "begincolumn": 0,
+          "endline": 33,
+          "endcolumn": 0,
+          "description": "CommentRequired: Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 33,
+          "begincolumn": 0,
+          "endline": 33,
+          "endcolumn": 0,
+          "description": "MethodArgumentCouldBeFinal: Parameter \u0027orderId\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 33,
+          "begincolumn": 0,
+          "endline": 33,
+          "endcolumn": 0,
+          "description": "MethodArgumentCouldBeFinal: Parameter \u0027pId\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 33,
+          "begincolumn": 0,
+          "endline": 33,
+          "endcolumn": 0,
+          "description": "MethodArgumentCouldBeFinal: Parameter \u0027totalAmount\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 43,
+          "begincolumn": 0,
+          "endline": 43,
+          "endcolumn": 0,
+          "description": "CommentRequired: Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 49,
+          "begincolumn": 0,
+          "endline": 49,
+          "endcolumn": 0,
+          "description": "CommentRequired: Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 49,
+          "begincolumn": 0,
+          "endline": 49,
+          "endcolumn": 0,
+          "description": "MethodArgumentCouldBeFinal: Parameter \u0027pId\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 61,
+          "begincolumn": 0,
+          "endline": 61,
+          "endcolumn": 0,
+          "description": "MethodArgumentCouldBeFinal: Parameter \u0027orderId\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 71,
+          "begincolumn": 0,
+          "endline": 71,
+          "endcolumn": 0,
+          "description": "MethodArgumentCouldBeFinal: Parameter \u0027totalAmount\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        }
+      ]
+    },
+    {
+      "filename": "src/main/java/com/Payment/main/exception/InvalidPaymentId.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 0,
+          "endline": 1,
+          "endcolumn": 0,
+          "description": "PackageCase: Package name contains upper case characters",
+          "rule": "PackageCase",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#packagecase"
+        },
+        {
+          "beginline": 2,
+          "begincolumn": 0,
+          "endline": 2,
+          "endcolumn": 0,
+          "description": "CommentRequired: Class comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 2,
+          "begincolumn": 0,
+          "endline": 2,
+          "endcolumn": 0,
+          "description": "MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID",
+          "rule": "MissingSerialVersionUID",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_errorprone.html#missingserialversionuid"
+        },
+        {
+          "beginline": 3,
+          "begincolumn": 0,
+          "endline": 3,
+          "endcolumn": 0,
+          "description": "CommentRequired: Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 3,
+          "begincolumn": 0,
+          "endline": 3,
+          "endcolumn": 0,
+          "description": "MethodArgumentCouldBeFinal: Parameter \u0027message\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        }
+      ]
+    },
+    {
+      "filename": "src/main/java/com/Payment/main/repository/PaymentRepository.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 0,
+          "endline": 1,
+          "endcolumn": 0,
+          "description": "PackageCase: Package name contains upper case characters",
+          "rule": "PackageCase",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#packagecase"
+        },
+        {
+          "beginline": 5,
+          "begincolumn": 0,
+          "endline": 5,
+          "endcolumn": 0,
+          "description": "UnnecessaryImport: Unused import \u0027org.springframework.data.jpa.repository.Query\u0027",
+          "rule": "UnnecessaryImport",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#unnecessaryimport"
+        },
+        {
+          "beginline": 6,
+          "begincolumn": 0,
+          "endline": 6,
+          "endcolumn": 0,
+          "description": "UnnecessaryImport: Unused import \u0027org.springframework.data.repository.query.Param\u0027",
+          "rule": "UnnecessaryImport",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#unnecessaryimport"
+        },
+        {
+          "beginline": 12,
+          "begincolumn": 0,
+          "endline": 12,
+          "endcolumn": 0,
+          "description": "CommentRequired: Class comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_documentation.html#commentrequired"
+        }
+      ]
+    },
+    {
+      "filename": "src/main/java/com/Payment/main/service/PaymentService.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 0,
+          "endline": 1,
+          "endcolumn": 0,
+          "description": "PackageCase: Package name contains upper case characters",
+          "rule": "PackageCase",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#packagecase"
+        },
+        {
+          "beginline": 14,
+          "begincolumn": 0,
+          "endline": 14,
+          "endcolumn": 0,
+          "description": "CommentRequired: Class comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 16,
+          "begincolumn": 0,
+          "endline": 16,
+          "endcolumn": 0,
+          "description": "CommentRequired: Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 16,
+          "begincolumn": 0,
+          "endline": 16,
+          "endcolumn": 0,
+          "description": "SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception",
+          "rule": "SignatureDeclareThrowsException",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_design.html#signaturedeclarethrowsexception"
+        },
+        {
+          "beginline": 16,
+          "begincolumn": 0,
+          "endline": 16,
+          "endcolumn": 0,
+          "description": "UnnecessaryModifier: Unnecessary modifier \u0027public\u0027 on method \u0027insertPayment\u0027: the method is declared in an interface type",
+          "rule": "UnnecessaryModifier",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#unnecessarymodifier"
+        },
+        {
+          "beginline": 17,
+          "begincolumn": 0,
+          "endline": 17,
+          "endcolumn": 0,
+          "description": "CommentRequired: Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 17,
+          "begincolumn": 0,
+          "endline": 17,
+          "endcolumn": 0,
+          "description": "SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception",
+          "rule": "SignatureDeclareThrowsException",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_design.html#signaturedeclarethrowsexception"
+        },
+        {
+          "beginline": 17,
+          "begincolumn": 0,
+          "endline": 17,
+          "endcolumn": 0,
+          "description": "UnnecessaryModifier: Unnecessary modifier \u0027public\u0027 on method \u0027getAllPayments\u0027: the method is declared in an interface type",
+          "rule": "UnnecessaryModifier",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#unnecessarymodifier"
+        },
+        {
+          "beginline": 18,
+          "begincolumn": 0,
+          "endline": 18,
+          "endcolumn": 0,
+          "description": "CommentRequired: Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 18,
+          "begincolumn": 0,
+          "endline": 18,
+          "endcolumn": 0,
+          "description": "SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception",
+          "rule": "SignatureDeclareThrowsException",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_design.html#signaturedeclarethrowsexception"
+        },
+        {
+          "beginline": 18,
+          "begincolumn": 0,
+          "endline": 18,
+          "endcolumn": 0,
+          "description": "UnnecessaryModifier: Unnecessary modifier \u0027public\u0027 on method \u0027updatePayment\u0027: the method is declared in an interface type",
+          "rule": "UnnecessaryModifier",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#unnecessarymodifier"
+        },
+        {
+          "beginline": 19,
+          "begincolumn": 0,
+          "endline": 19,
+          "endcolumn": 0,
+          "description": "CommentRequired: Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 19,
+          "begincolumn": 0,
+          "endline": 19,
+          "endcolumn": 0,
+          "description": "UnnecessaryModifier: Unnecessary modifier \u0027public\u0027 on method \u0027deletePayment\u0027: the method is declared in an interface type",
+          "rule": "UnnecessaryModifier",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#unnecessarymodifier"
+        }
+      ]
+    },
+    {
+      "filename": "src/main/java/com/Payment/main/service/PaymentServiceImpl.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 0,
+          "endline": 1,
+          "endcolumn": 0,
+          "description": "PackageCase: Package name contains upper case characters",
+          "rule": "PackageCase",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#packagecase"
+        },
+        {
+          "beginline": 13,
+          "begincolumn": 0,
+          "endline": 13,
+          "endcolumn": 0,
+          "description": "AtLeastOneConstructor: Each class should declare at least one constructor",
+          "rule": "AtLeastOneConstructor",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#atleastoneconstructor"
+        },
+        {
+          "beginline": 13,
+          "begincolumn": 0,
+          "endline": 13,
+          "endcolumn": 0,
+          "description": "CommentRequired: Class comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 15,
+          "begincolumn": 0,
+          "endline": 15,
+          "endcolumn": 0,
+          "description": "CommentRequired: Field comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 18,
+          "begincolumn": 0,
+          "endline": 18,
+          "endcolumn": 0,
+          "description": "CommentDefaultAccessModifier: Missing commented default access modifier on field \u0027paymentRepository\u0027",
+          "rule": "CommentDefaultAccessModifier",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier"
+        },
+        {
+          "beginline": 18,
+          "begincolumn": 0,
+          "endline": 18,
+          "endcolumn": 0,
+          "description": "CommentRequired: Field comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 20,
+          "begincolumn": 0,
+          "endline": 20,
+          "endcolumn": 0,
+          "description": "MethodArgumentCouldBeFinal: Parameter \u0027payment\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 20,
+          "begincolumn": 0,
+          "endline": 20,
+          "endcolumn": 0,
+          "description": "MissingOverride: The method \u0027insertPayment(Payment)\u0027 is missing an @Override annotation.",
+          "rule": "MissingOverride",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_bestpractices.html#missingoverride"
+        },
+        {
+          "beginline": 32,
+          "begincolumn": 0,
+          "endline": 32,
+          "endcolumn": 0,
+          "description": "MethodArgumentCouldBeFinal: Parameter \u0027payment\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 38,
+          "begincolumn": 0,
+          "endline": 38,
+          "endcolumn": 0,
+          "description": "MethodArgumentCouldBeFinal: Parameter \u0027pId\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        }
+      ]
+    },
+    {
+      "filename": "src/test/java/com/Payment/main/FoodDeliveryApp2ApplicationTests.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 0,
+          "endline": 1,
+          "endcolumn": 0,
+          "description": "PackageCase: Package name contains upper case characters",
+          "rule": "PackageCase",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#packagecase"
+        },
+        {
+          "beginline": 7,
+          "begincolumn": 0,
+          "endline": 7,
+          "endcolumn": 0,
+          "description": "AtLeastOneConstructor: Each class should declare at least one constructor",
+          "rule": "AtLeastOneConstructor",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#atleastoneconstructor"
+        },
+        {
+          "beginline": 7,
+          "begincolumn": 0,
+          "endline": 7,
+          "endcolumn": 0,
+          "description": "CommentRequired: Class comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 10,
+          "begincolumn": 0,
+          "endline": 10,
+          "endcolumn": 0,
+          "description": "JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()",
+          "rule": "JUnitTestsShouldIncludeAssert",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_bestpractices.html#junittestsshouldincludeassert"
+        },
+        {
+          "beginline": 10,
+          "begincolumn": 0,
+          "endline": 11,
+          "endcolumn": 0,
+          "description": "UncommentedEmptyMethodBody: Document empty method body",
+          "rule": "UncommentedEmptyMethodBody",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_documentation.html#uncommentedemptymethodbody"
+        }
+      ]
+    },
+    {
+      "filename": "src/test/java/com/Payment/main/PaymentServiceImplTest.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 0,
+          "endline": 1,
+          "endcolumn": 0,
+          "description": "PackageCase: Package name contains upper case characters",
+          "rule": "PackageCase",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#packagecase"
+        },
+        {
+          "beginline": 10,
+          "begincolumn": 0,
+          "endline": 10,
+          "endcolumn": 0,
+          "description": "UnnecessaryImport: Unused import \u0027com.Payment.main.exception.InvalidPaymentId\u0027",
+          "rule": "UnnecessaryImport",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#unnecessaryimport"
+        },
+        {
+          "beginline": 17,
+          "begincolumn": 0,
+          "endline": 17,
+          "endcolumn": 0,
+          "description": "UnnecessaryImport: Unused static import \u0027org.junit.Assert.assertThrows\u0027",
+          "rule": "UnnecessaryImport",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#unnecessaryimport"
+        },
+        {
+          "beginline": 21,
+          "begincolumn": 0,
+          "endline": 21,
+          "endcolumn": 0,
+          "description": "AtLeastOneConstructor: Each class should declare at least one constructor",
+          "rule": "AtLeastOneConstructor",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#atleastoneconstructor"
+        },
+        {
+          "beginline": 21,
+          "begincolumn": 0,
+          "endline": 21,
+          "endcolumn": 0,
+          "description": "CommentRequired: Class comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 24,
+          "begincolumn": 0,
+          "endline": 24,
+          "endcolumn": 0,
+          "description": "CommentRequired: Field comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 27,
+          "begincolumn": 0,
+          "endline": 27,
+          "endcolumn": 0,
+          "description": "CommentRequired: Field comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 30,
+          "begincolumn": 0,
+          "endline": 30,
+          "endcolumn": 0,
+          "description": "CommentRequired: Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 35,
+          "begincolumn": 0,
+          "endline": 35,
+          "endcolumn": 0,
+          "description": "CommentRequired: Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 35,
+          "begincolumn": 0,
+          "endline": 35,
+          "endcolumn": 0,
+          "description": "JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.",
+          "rule": "JUnit5TestShouldBePackagePrivate",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_bestpractices.html#junit5testshouldbepackageprivate"
+        },
+        {
+          "beginline": 35,
+          "begincolumn": 0,
+          "endline": 35,
+          "endcolumn": 0,
+          "description": "JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).",
+          "rule": "JUnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_bestpractices.html#junittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 36,
+          "begincolumn": 0,
+          "endline": 36,
+          "endcolumn": 0,
+          "description": "LocalVariableCouldBeFinal: Local variable \u0027payment\u0027 could be declared final",
+          "rule": "LocalVariableCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#localvariablecouldbefinal"
+        },
+        {
+          "beginline": 43,
+          "begincolumn": 0,
+          "endline": 43,
+          "endcolumn": 0,
+          "description": "LocalVariableCouldBeFinal: Local variable \u0027result\u0027 could be declared final",
+          "rule": "LocalVariableCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#localvariablecouldbefinal"
+        },
+        {
+          "beginline": 45,
+          "begincolumn": 0,
+          "endline": 45,
+          "endcolumn": 0,
+          "description": "JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message",
+          "rule": "JUnitAssertionsShouldIncludeMessage",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage"
+        },
+        {
+          "beginline": 46,
+          "begincolumn": 0,
+          "endline": 46,
+          "endcolumn": 0,
+          "description": "JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message",
+          "rule": "JUnitAssertionsShouldIncludeMessage",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage"
+        },
+        {
+          "beginline": 52,
+          "begincolumn": 0,
+          "endline": 52,
+          "endcolumn": 0,
+          "description": "CommentRequired: Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 52,
+          "begincolumn": 0,
+          "endline": 52,
+          "endcolumn": 0,
+          "description": "JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.",
+          "rule": "JUnit5TestShouldBePackagePrivate",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_bestpractices.html#junit5testshouldbepackageprivate"
+        },
+        {
+          "beginline": 52,
+          "begincolumn": 0,
+          "endline": 52,
+          "endcolumn": 0,
+          "description": "JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).",
+          "rule": "JUnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_bestpractices.html#junittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 53,
+          "begincolumn": 0,
+          "endline": 53,
+          "endcolumn": 0,
+          "description": "LocalVariableCouldBeFinal: Local variable \u0027paymentList\u0027 could be declared final",
+          "rule": "LocalVariableCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#localvariablecouldbefinal"
+        },
+        {
+          "beginline": 59,
+          "begincolumn": 0,
+          "endline": 59,
+          "endcolumn": 0,
+          "description": "LocalVariableCouldBeFinal: Local variable \u0027result\u0027 could be declared final",
+          "rule": "LocalVariableCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#localvariablecouldbefinal"
+        },
+        {
+          "beginline": 61,
+          "begincolumn": 0,
+          "endline": 61,
+          "endcolumn": 0,
+          "description": "JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message",
+          "rule": "JUnitAssertionsShouldIncludeMessage",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage"
+        },
+        {
+          "beginline": 62,
+          "begincolumn": 0,
+          "endline": 62,
+          "endcolumn": 0,
+          "description": "JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message",
+          "rule": "JUnitAssertionsShouldIncludeMessage",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage"
+        },
+        {
+          "beginline": 68,
+          "begincolumn": 0,
+          "endline": 68,
+          "endcolumn": 0,
+          "description": "CommentRequired: Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 68,
+          "begincolumn": 0,
+          "endline": 68,
+          "endcolumn": 0,
+          "description": "JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.",
+          "rule": "JUnit5TestShouldBePackagePrivate",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_bestpractices.html#junit5testshouldbepackageprivate"
+        },
+        {
+          "beginline": 68,
+          "begincolumn": 0,
+          "endline": 68,
+          "endcolumn": 0,
+          "description": "JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).",
+          "rule": "JUnitTestContainsTooManyAsserts",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_bestpractices.html#junittestcontainstoomanyasserts"
+        },
+        {
+          "beginline": 69,
+          "begincolumn": 0,
+          "endline": 69,
+          "endcolumn": 0,
+          "description": "LocalVariableCouldBeFinal: Local variable \u0027payment\u0027 could be declared final",
+          "rule": "LocalVariableCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#localvariablecouldbefinal"
+        },
+        {
+          "beginline": 77,
+          "begincolumn": 0,
+          "endline": 77,
+          "endcolumn": 0,
+          "description": "LocalVariableCouldBeFinal: Local variable \u0027result\u0027 could be declared final",
+          "rule": "LocalVariableCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#localvariablecouldbefinal"
+        },
+        {
+          "beginline": 79,
+          "begincolumn": 0,
+          "endline": 79,
+          "endcolumn": 0,
+          "description": "JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message",
+          "rule": "JUnitAssertionsShouldIncludeMessage",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage"
+        },
+        {
+          "beginline": 80,
+          "begincolumn": 0,
+          "endline": 80,
+          "endcolumn": 0,
+          "description": "JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message",
+          "rule": "JUnitAssertionsShouldIncludeMessage",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage"
+        },
+        {
+          "beginline": 86,
+          "begincolumn": 0,
+          "endline": 86,
+          "endcolumn": 0,
+          "description": "CommentRequired: Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 86,
+          "begincolumn": 0,
+          "endline": 86,
+          "endcolumn": 0,
+          "description": "JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.",
+          "rule": "JUnit5TestShouldBePackagePrivate",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_bestpractices.html#junit5testshouldbepackageprivate"
+        },
+        {
+          "beginline": 87,
+          "begincolumn": 0,
+          "endline": 87,
+          "endcolumn": 0,
+          "description": "LocalVariableCouldBeFinal: Local variable \u0027paymentId\u0027 could be declared final",
+          "rule": "LocalVariableCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.0.0-rc3/pmd_rules_java_codestyle.html#localvariablecouldbefinal"
+        }
+      ]
+    }
+  ],
+  "suppressedViolations": [],
+  "processingErrors": [],
+  "configurationErrors": []
+}
