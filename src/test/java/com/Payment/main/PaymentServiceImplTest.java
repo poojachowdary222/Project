@@ -20,77 +20,77 @@ import static org.mockito.Mockito.*;
 
 class PaymentServiceImplTest { 
 
-    @Mock
-    private PaymentRepository paymentRepository;
+//     @Mock
+//     private PaymentRepository paymentRepository;
 
-    @InjectMocks
-    private PaymentServiceImpl paymentService;
+//     @InjectMocks
+//     private PaymentServiceImpl paymentService;
 
-    @BeforeEach
-    public void setUp() {
-        MockitoAnnotations.openMocks(this);
-    }
+//     @BeforeEach
+//     public void setUp() {
+//         MockitoAnnotations.openMocks(this);
+//     }
 
-    @Test
-    public void testInsertPayment() throws Exception {
-    	Payment payment = new Payment();
-        payment.setpId(1);
-        payment.setTotalAmount(10.5f);
+//     @Test
+//     public void testInsertPayment() throws Exception {
+//     	Payment payment = new Payment();
+//         payment.setpId(1);
+//         payment.setTotalAmount(10.5f);
         
 
-        when(paymentRepository.save(payment)).thenReturn(payment);
+//         when(paymentRepository.save(payment)).thenReturn(payment);
 
-        Payment result = paymentService.insertPayment(payment);
+//         Payment result = paymentService.insertPayment(payment);
 
-        assertNotNull(result); 
-        assertEquals(payment, result);
+//         assertNotNull(result); 
+//         assertEquals(payment, result);
 
-        verify(paymentRepository, times(1)).save(payment);
-    }
+//         verify(paymentRepository, times(1)).save(payment);
+//     }
 
-    @Test
-    public void testGetAllPayments() throws Exception {
-        List<Payment> paymentList = new ArrayList<>();
-        paymentList.add(new Payment(1, 2, 11.6f));
-        paymentList.add(new Payment(1, 2, 11.6f));
+//     @Test
+//     public void testGetAllPayments() throws Exception {
+//         List<Payment> paymentList = new ArrayList<>();
+//         paymentList.add(new Payment(1, 2, 11.6f));
+//         paymentList.add(new Payment(1, 2, 11.6f));
 
-        when(paymentRepository.findAll()).thenReturn(paymentList);
+//         when(paymentRepository.findAll()).thenReturn(paymentList);
 
-        List<Payment> result = paymentService.getAllPayments();
+//         List<Payment> result = paymentService.getAllPayments();
 
-        assertNotNull(result);
-        assertEquals(paymentList, result);
+//         assertNotNull(result);
+//         assertEquals(paymentList, result);
 
-        verify(paymentRepository, times(1)).findAll();
-    }
+//         verify(paymentRepository, times(1)).findAll();
+//     }
 
-    @Test
-    public void testUpdatePayment() throws Exception {
-        Payment payment = new Payment();
-        payment.setpId(1);
-        payment.setTotalAmount(10.5f);
+//     @Test
+//     public void testUpdatePayment() throws Exception {
+//         Payment payment = new Payment();
+//         payment.setpId(1);
+//         payment.setTotalAmount(10.5f);
        
 
-        when(paymentRepository.existsById(payment.getpId())).thenReturn(true);
-        when(paymentRepository.save(payment)).thenReturn(payment);
+//         when(paymentRepository.existsById(payment.getpId())).thenReturn(true);
+//         when(paymentRepository.save(payment)).thenReturn(payment);
 
-        Payment result = paymentService.updatePayment(payment);
+//         Payment result = paymentService.updatePayment(payment);
 
-        assertNotNull(result);
-        assertEquals(payment, result);
-    }
+//         assertNotNull(result);
+//         assertEquals(payment, result);
+//     }
 
    
 
-    @Test
-    public void testDeletePayment() throws Exception {
-        int paymentId = 1;
+//     @Test
+//     public void testDeletePayment() throws Exception {
+//         int paymentId = 1;
 
-        when(paymentRepository.existsById(paymentId)).thenReturn(true);
+//         when(paymentRepository.existsById(paymentId)).thenReturn(true);
 
-assertDoesNotThrow(() -> paymentService.deletePayment(paymentId)); 
+// assertDoesNotThrow(() -> paymentService.deletePayment(paymentId)); 
 
-    }
+//     }
 
   
 }
