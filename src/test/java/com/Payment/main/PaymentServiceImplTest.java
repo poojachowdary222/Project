@@ -4,6 +4,9 @@ package com.Payment.main;
 import org.junit.Rule;
 import org.junit.rules.ExpectedException;
 import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertEquals;
+
 
 
 import org.junit.jupiter.api.BeforeEach;
