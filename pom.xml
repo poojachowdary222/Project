@@ -17,6 +17,11 @@
 	<properties>
 		<java.version>11</java.version>
 	</properties>
+
+<properties>
+        <maven.plugin.validation>VERBOSE</maven.plugin.validation>
+      </properties>
+	
 	<dependencies>
 		<dependency>
   <groupId>junit</groupId>
