@@ -83,12 +83,6 @@
 </plugin>
 
 
-<plugin>
-      <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-resources-plugin</artifactId>
-      <version>4.0.0</version> <!-- Update to the desired version -->
-
-    </plugin>
 
 
 			
