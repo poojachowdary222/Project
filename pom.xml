@@ -18,9 +18,22 @@
 		<java.version>11</java.version>
 	</properties>
 
-<properties>
+
+<settings>
+  <profiles>
+    <profile>
+      <id>plugin-validation</id>
+      <properties>
         <maven.plugin.validation>VERBOSE</maven.plugin.validation>
       </properties>
+    </profile>
+  </profiles>
+  <activeProfiles>
+    <activeProfile>plugin-validation</activeProfile>
+  </activeProfiles>
+</settings>
+
+
 	
 	<dependencies>
 		<dependency>
