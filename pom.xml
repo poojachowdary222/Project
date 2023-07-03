@@ -73,14 +73,7 @@
 
 	<build>
 		<plugins>
-<plugin>
-      <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-resources-plugin</artifactId>
-      <version>4.0.0</version>
-	<configuration>
-        <!-- Plugin configuration options go here -->
-      </configuration>
-</plugin>
+
 
 
 
